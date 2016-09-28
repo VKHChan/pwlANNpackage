@@ -1,9 +1,12 @@
 Package: pwlNNPackage
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Veronica Chan
 Version: 0.1
 Date: 2016-09-22
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Authors: Veronica Chan <veronicakaheichan@gmail.com>
+Description: A package that approximates the hidden activaition function (either
+    sigmoid or hyperbolic) of a single layer feedforward neural network by piecewise
+    linear equations to extract multiple linear equations.
+License: VChan
 LazyData: TRUE
+RoxygenNote: 5.0.1
