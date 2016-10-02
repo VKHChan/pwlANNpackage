@@ -2,7 +2,7 @@
 % Please edit documentation in R/findoneBP.nn.R
 \name{findoneBP.nn}
 \alias{findoneBP.nn}
-\title{A function that is used to locate one breakpoint only with brutte force search, without creating the SSR matrix}
+\title{A function that is used to locate one breakpoint only with brutte force search, without creating the SSR matrix.}
 \usage{
 findoneBP.nn(data, l)
 }
@@ -15,6 +15,6 @@ findoneBP.nn(data, l)
 The approximated piecewise linear equations
 }
 \description{
-A function that is used to locate one breakpoint only with brutte force search, without creating the SSR matrix
+A function that is used to locate one breakpoint only with brutte force search, without creating the SSR matrix.
 }
 

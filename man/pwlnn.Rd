@@ -3,7 +3,7 @@
 \name{pwlnn}
 \alias{pwlnn}
 \title{pwlnn - piecewise linear neural network.
-A function that approximates the nodes of a trained artificial neural network (ANN) models and express the ANN outputs as multiple linear regression equation}
+A function that approximates the nodes of a trained artificial neural network (ANN) models and express the ANN outputs as multiple linear regression equation.}
 \usage{
 pwlnn(Inputdata, ANNOutput, ActualOutput, hiddenW, outputW,
   actfun = "sigmoid", l = NULL, maxBP = NULL, error = NULL,
@@ -37,6 +37,6 @@ pwlnn model The pwl equations of each node, and the predicted output and residua
 }
 \description{
 pwlnn - piecewise linear neural network.
-A function that approximates the nodes of a trained artificial neural network (ANN) models and express the ANN outputs as multiple linear regression equation
+A function that approximates the nodes of a trained artificial neural network (ANN) models and express the ANN outputs as multiple linear regression equation.
 }
 

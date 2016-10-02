@@ -1,5 +1,5 @@
 #' pwlnn - piecewise linear neural network.
-#' A function that approximates the nodes of a trained artificial neural network (ANN) models and express the ANN outputs as multiple linear regression equation
+#' A function that approximates the nodes of a trained artificial neural network (ANN) models and express the ANN outputs as multiple linear regression equation.
 #' @param Inputdata The input data used to trained the ANN model.
 #' @param ANNOutput The output predicted by the ANN model.
 #' @param ActualOutput The target output used to train the ANN model.
@@ -80,7 +80,7 @@ pwlnn <- function(Inputdata, ANNOutput, ActualOutput, hiddenW, outputW, actfun="
   # get the number of node in the given ANN model
   noofNode <- ncol(hiddenW)
 
-  weightedInput <- as.data.frame(calculateWeightedValues(InputData, hiddenW))
+  weightedInput <- as.data.frame(calculateWeightedValues(Inputdata, hiddenW))
 
   # use absolute weighed input values for approximation only
   sampledata <- abs(weightedInput)

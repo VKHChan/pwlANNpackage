@@ -1,4 +1,4 @@
-#'A function that is used to locate one breakpoint only with brutte force search, without creating the SSR matrix
+#'A function that is used to locate one breakpoint only with brutte force search, without creating the SSR matrix.
 #' @param data The data that needs to be approximated
 #' @param l The minimum length of a segment
 #' @return The approximated piecewise linear equations

@@ -2,7 +2,7 @@
 % Please edit documentation in R/takesample.R
 \name{takesample}
 \alias{takesample}
-\title{A function that takes a sample of the given dataset}
+\title{A function that takes a sample of the given dataset.}
 \usage{
 takesample(data, samplesize)
 }
@@ -15,6 +15,6 @@ takesample(data, samplesize)
 A subset with the specified sample size of the given dataset
 }
 \description{
-A function that takes a sample of the given dataset
+A function that takes a sample of the given dataset.
 }
 

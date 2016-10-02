@@ -2,8 +2,8 @@
 % Please edit documentation in R/ismidsection.R
 \name{ismidsection}
 \alias{ismidsection}
-\title{A function that checks if the given data is a "mid" section, i.e. if the data set crosses the x=0
-This is used in getequataion.nn and calculateSSRmatrix. If the data is a mid section, then it has to pass through the origin, i.e. lm(y~x+0)}
+\title{A function that checks if the given data is a "mid" section, i.e. if the data set crosses the x=0.
+This is used in getequataion.nn and calculateSSRmatrix. If the data is a mid section, then it has to pass through the origin, i.e. lm(y~x+0).}
 \usage{
 ismidsection(data)
 }
@@ -14,7 +14,7 @@ ismidsection(data)
 TRUE if it is a mid section, otherwise FALSE
 }
 \description{
-A function that checks if the given data is a "mid" section, i.e. if the data set crosses the x=0
-This is used in getequataion.nn and calculateSSRmatrix. If the data is a mid section, then it has to pass through the origin, i.e. lm(y~x+0)
+A function that checks if the given data is a "mid" section, i.e. if the data set crosses the x=0.
+This is used in getequataion.nn and calculateSSRmatrix. If the data is a mid section, then it has to pass through the origin, i.e. lm(y~x+0).
 }
 
